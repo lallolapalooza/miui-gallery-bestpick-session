@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+native/libiqa.so.orig
+native/*.core
+libs/

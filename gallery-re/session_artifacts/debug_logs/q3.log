@@ -1,0 +1,3 @@
+img 768x512x3
+load=0 obj=0x7f4979772530
+qemu-aarch64: QEMU: Terminated via GDBstub

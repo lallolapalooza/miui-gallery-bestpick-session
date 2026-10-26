@@ -1,0 +1,4 @@
+img 768x512x3
+load=0 obj=0x7f3199612530
+vec before (nil) (nil) (nil)
+qemu-aarch64: QEMU: Terminated via GDBstub
