@@ -1,0 +1,81 @@
+The target architecture is set to "aarch64".
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.archlinux.org>
+Enable debuginfod for this session? (y or [n]) [answered N; input not from terminal]
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+0x00007ffff556dc80 in _start () from /usr/aarch64-linux-gnu/lib/ld-linux-aarch64.so.1
+Breakpoint 1 at 0x7ffff5da0bd4
+warning: File "/usr/aarch64-linux-gnu/lib/libstdc++.so.6.0.35-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "$debugdir:$datadir/auto-load".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/aarch64-linux-gnu/lib/libstdc++.so.6.0.35-gdb.py
+line to your configuration file "/home/asdf/.config/gdb/gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/home/asdf/.config/gdb/gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+
+Breakpoint 1, 0x00007ffff5da0bd4 in main ()
+process 1652163
+Mapped address spaces:
+
+Start Addr         End Addr           Size               Offset             Perms File 
+0x00007ffff4200000 0x00007ffff4300000 0x100000           0x0                rw-p   
+0x00007ffff4300000 0x00007ffff4301000 0x1000             0x0                r-xp  /usr/aarch64-linux-gnu/lib/libdl.so.2 
+0x00007ffff4301000 0x00007ffff431f000 0x1e000            0x1000             ---p  /usr/aarch64-linux-gnu/lib/libdl.so.2 
+0x00007ffff431f000 0x00007ffff4320000 0x1000             0xf000             r--p  /usr/aarch64-linux-gnu/lib/libdl.so.2 
+0x00007ffff4320000 0x00007ffff4321000 0x1000             0x10000            rw-p  /usr/aarch64-linux-gnu/lib/libdl.so.2 
+0x00007ffff4330000 0x00007ffff4331000 0x1000             0x0                r-xp  /home/asdf/Downloads/gallery-re/armtest/libjnigraphics.so 
+0x00007ffff4331000 0x00007ffff434f000 0x1e000            0x1000             ---p  /home/asdf/Downloads/gallery-re/armtest/libjnigraphics.so 
+0x00007ffff434f000 0x00007ffff4350000 0x1000             0xf000             r--p  /home/asdf/Downloads/gallery-re/armtest/libjnigraphics.so 
+0x00007ffff4350000 0x00007ffff4351000 0x1000             0x10000            rw-p  /home/asdf/Downloads/gallery-re/armtest/libjnigraphics.so 
+0x00007ffff4351000 0x00007ffff4353000 0x2000             0x0                rw-p   
+0x00007ffff4360000 0x00007ffff4361000 0x1000             0x0                r-xp  /home/asdf/Downloads/gallery-re/armtest/libandroid.so 
+0x00007ffff4361000 0x00007ffff437f000 0x1e000            0x1000             ---p  /home/asdf/Downloads/gallery-re/armtest/libandroid.so 
+0x00007ffff437f000 0x00007ffff4380000 0x1000             0xf000             r--p  /home/asdf/Downloads/gallery-re/armtest/libandroid.so 
+0x00007ffff4380000 0x00007ffff4381000 0x1000             0x10000            rw-p  /home/asdf/Downloads/gallery-re/armtest/libandroid.so 
+0x00007ffff4381000 0x00007ffff4383000 0x2000             0x0                rw-p   
+0x00007ffff4390000 0x00007ffff4391000 0x1000             0x0                r-xp  /home/asdf/Downloads/gallery-re/armtest/liblog.so 
+0x00007ffff4391000 0x00007ffff43af000 0x1e000            0x1000             ---p  /home/asdf/Downloads/gallery-re/armtest/liblog.so 
+0x00007ffff43af000 0x00007ffff43b0000 0x1000             0xf000             r--p  /home/asdf/Downloads/gallery-re/armtest/liblog.so 
+0x00007ffff43b0000 0x00007ffff43b1000 0x1000             0x10000            rw-p  /home/asdf/Downloads/gallery-re/armtest/liblog.so 
+0x00007ffff43b1000 0x00007ffff43b3000 0x2000             0x0                rw-p   
+0x00007ffff43c0000 0x00007ffff4545000 0x185000           0x0                r-xp  /usr/aarch64-linux-gnu/lib/libc.so.6 
+0x00007ffff4545000 0x00007ffff455d000 0x18000            0x185000           ---p  /usr/aarch64-linux-gnu/lib/libc.so.6 
+0x00007ffff455d000 0x00007ffff4560000 0x3000             0x18d000           r--p  /usr/aarch64-linux-gnu/lib/libc.so.6 
+0x00007ffff4560000 0x00007ffff4562000 0x2000             0x190000           rw-p  /usr/aarch64-linux-gnu/lib/libc.so.6 
+0x00007ffff4562000 0x00007ffff456e000 0xc000             0x0                rw-p   
+0x00007ffff4570000 0x00007ffff47dd000 0x26d000           0x0                r-xp  /usr/aarch64-linux-gnu/lib/libstdc++.so.6.0.35 
+0x00007ffff47dd000 0x00007ffff47e1000 0x4000             0x26d000           ---p  /usr/aarch64-linux-gnu/lib/libstdc++.so.6.0.35 
+0x00007ffff47e1000 0x00007ffff47f0000 0xf000             0x271000           r--p  /usr/aarch64-linux-gnu/lib/libstdc++.so.6.0.35 
+0x00007ffff47f0000 0x00007ffff47f3000 0x3000             0x280000           rw-p  /usr/aarch64-linux-gnu/lib/libstdc++.so.6.0.35 
+0x00007ffff47f3000 0x00007ffff47f8000 0x5000             0x0                rw-p   
+0x00007ffff4800000 0x00007ffff5319000 0xb19000           0x0                r-xp  /home/asdf/Downloads/gallery-re/armtest/libiqa_patched.so 
+0x00007ffff5319000 0x00007ffff5337000 0x1e000            0xb18000           r--p  /home/asdf/Downloads/gallery-re/armtest/libiqa_patched.so 
+0x00007ffff5337000 0x00007ffff5338000 0x1000             0xb36000           rw-p  /home/asdf/Downloads/gallery-re/armtest/libiqa_patched.so 
+0x00007ffff5338000 0x00007ffff533a000 0x2000             0x0                rw-p   
+0x00007ffff5350000 0x00007ffff536f000 0x1f000            0x0                r-xp  /usr/aarch64-linux-gnu/lib/libgcc_s.so.1 
+0x00007ffff536f000 0x00007ffff537f000 0x10000            0x1f000            ---p  /usr/aarch64-linux-gnu/lib/libgcc_s.so.1 
+0x00007ffff537f000 0x00007ffff5380000 0x1000             0x1f000            r--p  /usr/aarch64-linux-gnu/lib/libgcc_s.so.1 
+0x00007ffff5380000 0x00007ffff5381000 0x1000             0x20000            rw-p  /usr/aarch64-linux-gnu/lib/libgcc_s.so.1 
+0x00007ffff5390000 0x00007ffff5438000 0xa8000            0x0                r-xp  /usr/aarch64-linux-gnu/lib/libm.so.6 
+0x00007ffff5438000 0x00007ffff544f000 0x17000            0xa8000            ---p  /usr/aarch64-linux-gnu/lib/libm.so.6 
+0x00007ffff544f000 0x00007ffff5450000 0x1000             0xaf000            r--p  /usr/aarch64-linux-gnu/lib/libm.so.6 
+0x00007ffff5450000 0x00007ffff5451000 0x1000             0xb0000            rw-p  /usr/aarch64-linux-gnu/lib/libm.so.6 
+0x00007ffff5455000 0x00007ffff5493000 0x3e000            0x0                r--p  /etc/ld.so.cache 
+0x00007ffff5550000 0x00007ffff557b000 0x2b000            0x0                r-xp  /usr/aarch64-linux-gnu/lib/ld-linux-aarch64.so.1 
+0x00007ffff557b000 0x00007ffff558e000 0x13000            0x0                ---p   
+0x00007ffff558e000 0x00007ffff5590000 0x2000             0x2e000            r--p  /usr/aarch64-linux-gnu/lib/ld-linux-aarch64.so.1 
+0x00007ffff5590000 0x00007ffff5591000 0x1000             0x30000            rw-p  /usr/aarch64-linux-gnu/lib/ld-linux-aarch64.so.1 
+0x00007ffff5591000 0x00007ffff5592000 0x1000             0x0                rw-p   
+0x00007ffff559f000 0x00007ffff55a0000 0x1000             0x0                ---p   
+0x00007ffff55a0000 0x00007ffff5da0000 0x800000           0x0                rw-p  [stack] 
+0x00007ffff5da0000 0x00007ffff5da1000 0x1000             0x0                r-xp  /home/asdf/Downloads/gallery-re/armtest/harness4 
+0x00007ffff5da1000 0x00007ffff5dbf000 0x1e000            0x0                ---p   
+0x00007ffff5dbf000 0x00007ffff5dc0000 0x1000             0xf000             r--p  /home/asdf/Downloads/gallery-re/armtest/harness4 
+0x00007ffff5dc0000 0x00007ffff5dc1000 0x1000             0x10000            rw-p  /home/asdf/Downloads/gallery-re/armtest/harness4 
+0x00007ffff7026000 0x00007ffff702e000 0x8000             0x0                rw-p   
+0x00007ffff702e000 0x00007ffff702f000 0x1000             0x0                r-xp  [vdso] 

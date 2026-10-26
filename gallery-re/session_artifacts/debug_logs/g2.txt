@@ -1,0 +1,22 @@
+The target architecture is set to "aarch64".
+./harness4: No such file or directory.
+warning: ./harness4: No such file or directory.
+warning: Could not load vsyscall page because no executable was specified
+0x00007ffff556dc80 in _start () from /usr/aarch64-linux-gnu/lib/ld-linux-aarch64.so.1
+Function "main" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) [answered N; input not from terminal]
+warning: Could not load shared library symbols for 5 libraries, e.g. /home/asdf/Downloads/gallery-re/armtest/libiqa.so.
+Use the "info sharedlibrary" command to see the complete listing.
+Do you need "set solib-search-path" or "set sysroot"?
+warning: File "/usr/aarch64-linux-gnu/lib/libstdc++.so.6.0.35-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "$debugdir:$datadir/auto-load".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/aarch64-linux-gnu/lib/libstdc++.so.6.0.35-gdb.py
+line to your configuration file "/home/asdf/.config/gdb/gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/home/asdf/.config/gdb/gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+[Inferior 1 (process 1652017) exited normally]
+No current process: you must name one.

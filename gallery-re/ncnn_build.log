@@ -1,0 +1,849 @@
+ninja: Entering directory `build'
+[1/787] Generating source absval_x86_avx512.h
+[2/787] Generating source absval_x86_avx.h
+[3/787] Generating source batchnorm_x86_avx512.h
+[4/787] Generating source batchnorm_x86_avx512.cpp
+[5/787] Generating source batchnorm_x86_avx.cpp
+[6/787] Generating source absval_x86_avx512.cpp
+[7/787] Generating source absval_x86_avx.cpp
+[8/787] Generating source batchnorm_x86_avx.h
+[9/787] Generating source bias_x86_avx512.cpp
+[10/787] Generating source bias_x86_avx.h
+[11/787] Generating source bias_x86_avx.cpp
+[12/787] Generating source bias_x86_avx512.h
+[13/787] Generating source bnll_x86_avx512.h
+[14/787] Generating source bnll_x86_avx512.cpp
+[15/787] Generating source bnll_x86_avx.h
+[16/787] Generating source bnll_x86_avx.cpp
+[17/787] Generating source concat_x86_avx512.h
+[18/787] Generating source concat_x86_avx.h
+[19/787] Generating source concat_x86_avx.cpp
+[20/787] Generating source concat_x86_avx512.cpp
+[21/787] Generating source convolution_x86_avx512.h
+[22/787] Generating source convolution_x86_avx512.cpp
+[23/787] Generating source convolution_x86_avx.h
+[24/787] Generating source convolution_x86_avx.cpp
+[25/787] Generating source crop_x86_avx512.h
+[26/787] Generating source crop_x86_avx.h
+[27/787] Generating source deconvolution_x86_avx512.h
+[28/787] Generating source crop_x86_avx512.cpp
+[29/787] Generating source crop_x86_avx.cpp
+[30/787] Generating source deconvolution_x86_avx512.cpp
+[31/787] Generating source deconvolution_x86_avx.h
+[32/787] Generating source deconvolution_x86_avx.cpp
+[33/787] Generating source dropout_x86_avx.cpp
+[34/787] Generating source eltwise_x86_avx.h
+[35/787] Generating source dropout_x86_avx512.h
+[36/787] Generating source dropout_x86_avx512.cpp
+[37/787] Generating source dropout_x86_avx.h
+[38/787] Generating source eltwise_x86_avx512.h
+[39/787] Generating source eltwise_x86_avx512.cpp
+[40/787] Generating source eltwise_x86_avx.cpp
+[41/787] Generating source elu_x86_avx512.h
+[42/787] Generating source elu_x86_avx512.cpp
+[43/787] Generating source elu_x86_avx.h
+[44/787] Generating source elu_x86_avx.cpp
+[45/787] Generating source flatten_x86_avx512.h
+[46/787] Generating source flatten_x86_avx.h
+[47/787] Generating source flatten_x86_avx512.cpp
+[48/787] Generating source flatten_x86_avx.cpp
+[49/787] Generating source lrn_x86_avx512.h
+[50/787] Generating source innerproduct_x86_avx512.h
+[51/787] Generating source lrn_x86_avx.h
+[52/787] Generating source innerproduct_x86_avx.h
+[53/787] Generating source lrn_x86_avx512.cpp
+[54/787] Generating source innerproduct_x86_avx.cpp
+[55/787] Generating source innerproduct_x86_avx512.cpp
+[56/787] Generating source lrn_x86_avx.cpp
+[57/787] Generating source prelu_x86_avx512.h
+[58/787] Generating source pooling_x86_avx512.h
+[59/787] Generating source pooling_x86_avx.h
+[60/787] Generating source pooling_x86_avx512.cpp
+[61/787] Generating source pooling_x86_avx.cpp
+[62/787] Generating source prelu_x86_avx512.cpp
+[63/787] Generating source prelu_x86_avx.h
+[64/787] Generating source prelu_x86_avx.cpp
+[65/787] Generating source reduction_x86_avx512.h
+[66/787] Generating source reduction_x86_avx.h
+[67/787] Generating source reduction_x86_avx512.cpp
+[68/787] Generating source relu_x86_avx512.h
+[69/787] Generating source reduction_x86_avx.cpp
+[70/787] Generating source relu_x86_avx.h
+[71/787] Generating source relu_x86_avx512.cpp
+[72/787] Generating source relu_x86_avx.cpp
+[73/787] Generating source reshape_x86_avx.h
+[74/787] Generating source reshape_x86_avx512.h
+[75/787] Generating source reshape_x86_avx.cpp
+[76/787] Generating source reshape_x86_avx512.cpp
+[77/787] Generating source scale_x86_avx512.h
+[78/787] Generating source scale_x86_avx512.cpp
+[79/787] Generating source scale_x86_avx.cpp
+[80/787] Generating source scale_x86_avx.h
+[81/787] Generating source sigmoid_x86_avx512.h
+[82/787] Generating source sigmoid_x86_avx512.cpp
+[83/787] Generating source sigmoid_x86_avx.h
+[84/787] Generating source sigmoid_x86_avx.cpp
+[85/787] Generating source slice_x86_avx512.h
+[86/787] Generating source slice_x86_avx.h
+[87/787] Generating source slice_x86_avx.cpp
+[88/787] Generating source slice_x86_avx512.cpp
+[89/787] Generating source softmax_x86_avx512.h
+[90/787] Generating source softmax_x86_avx512.cpp
+[91/787] Generating source softmax_x86_avx.h
+[92/787] Generating source tanh_x86_avx512.h
+[93/787] Generating source softmax_x86_avx.cpp
+[94/787] Generating source tanh_x86_avx.h
+[95/787] Generating source tanh_x86_avx512.cpp
+[96/787] Generating source tanh_x86_avx.cpp
+[97/787] Generating source lstm_x86_avx512.cpp
+[98/787] Generating source lstm_x86_avx512.h
+[99/787] Generating source lstm_x86_avx.h
+[100/787] Generating source binaryop_x86_avx512.h
+[101/787] Generating source lstm_x86_avx.cpp
+[102/787] Generating source binaryop_x86_avx.h
+[103/787] Generating source binaryop_x86_avx512.cpp
+[104/787] Generating source binaryop_x86_avx.cpp
+[105/787] Generating source unaryop_x86_avx512.h
+[106/787] Generating source unaryop_x86_avx.h
+[107/787] Generating source unaryop_x86_avx.cpp
+[108/787] Generating source convolutiondepthwise_x86_avx512.h
+[109/787] Generating source unaryop_x86_avx512.cpp
+[110/787] Generating source convolutiondepthwise_x86_avx512.cpp
+[111/787] Generating source convolutiondepthwise_x86_avx.h
+[112/787] Generating source convolutiondepthwise_x86_avx.cpp
+[113/787] Generating source padding_x86_avx512.h
+[114/787] Generating source padding_x86_avx512.cpp
+[115/787] Generating source padding_x86_avx.h
+[116/787] Generating source normalize_x86_avx512.h
+[117/787] Generating source padding_x86_avx.cpp
+[118/787] Generating source normalize_x86_avx.h
+[119/787] Generating source normalize_x86_avx512.cpp
+[120/787] Generating source normalize_x86_avx.cpp
+[121/787] Generating source permute_x86_avx512.h
+[122/787] Generating source permute_x86_avx.h
+[123/787] Generating source permute_x86_avx512.cpp
+[124/787] Generating source permute_x86_avx.cpp
+[125/787] Generating source interp_x86_avx512.h
+[126/787] Generating source interp_x86_avx512.cpp
+[127/787] Generating source interp_x86_avx.h
+[128/787] Generating source deconvolutiondepthwise_x86_avx512.cpp
+[129/787] Generating source deconvolutiondepthwise_x86_avx.h
+[130/787] Generating source interp_x86_avx.cpp
+[131/787] Generating source shufflechannel_x86_avx512.h
+[132/787] Generating source deconvolutiondepthwise_x86_avx512.h
+[133/787] Generating source deconvolutiondepthwise_x86_avx.cpp
+[134/787] Generating source shufflechannel_x86_avx.h
+[135/787] Generating source shufflechannel_x86_avx512.cpp
+[136/787] Generating source shufflechannel_x86_avx.cpp
+[137/787] Generating source instancenorm_x86_avx512.h
+[138/787] Generating source instancenorm_x86_avx512.cpp
+[139/787] Generating source instancenorm_x86_avx.h
+[140/787] Generating source instancenorm_x86_avx.cpp
+[141/787] Generating source clip_x86_avx512.h
+[142/787] Generating source clip_x86_avx512.cpp
+[143/787] Generating source clip_x86_avx.h
+[144/787] Generating source clip_x86_avx.cpp
+[145/787] Generating source quantize_x86_avx.h
+[146/787] Generating source quantize_x86_avx512.cpp
+[147/787] Generating source quantize_x86_avx512.h
+[148/787] Generating source quantize_x86_avx.cpp
+[149/787] Generating source dequantize_x86_avx512.h
+[150/787] Generating source dequantize_x86_avx.cpp
+[151/787] Generating source dequantize_x86_avx512.cpp
+[152/787] Generating source dequantize_x86_avx.h
+[153/787] Generating source yolov3detectionoutput_x86_avx512.h
+[154/787] Generating source yolov3detectionoutput_x86_avx.cpp
+[155/787] Generating source yolov3detectionoutput_x86_avx512.cpp
+[156/787] Generating source yolov3detectionoutput_x86_avx.h
+[157/787] Generating source roialign_x86_avx512.h
+[158/787] Generating source roialign_x86_avx512.cpp
+[159/787] Generating source roialign_x86_avx.h
+[160/787] Generating source roialign_x86_avx.cpp
+[161/787] Generating source packing_x86_avx512.h
+[162/787] Generating source requantize_x86_avx512.h
+[163/787] Generating source packing_x86_avx.h
+[164/787] Generating source packing_x86_avx512.cpp
+[165/787] Generating source packing_x86_avx.cpp
+[166/787] Generating source requantize_x86_avx.cpp
+[167/787] Generating source requantize_x86_avx512.cpp
+[168/787] Generating source requantize_x86_avx.h
+[169/787] Generating source cast_x86_avx512.h
+[170/787] Generating source cast_x86_avx512.cpp
+[171/787] Generating source cast_x86_avx.h
+[172/787] Generating source cast_x86_avx.cpp
+[173/787] Generating source hardsigmoid_x86_avx512.h
+[174/787] Generating source hardsigmoid_x86_avx512.cpp
+[175/787] Generating source hardsigmoid_x86_avx.cpp
+[176/787] Generating source hardsigmoid_x86_avx.h
+[177/787] Generating source selu_x86_avx512.h
+[178/787] Generating source selu_x86_avx.h
+[179/787] Generating source selu_x86_avx512.cpp
+[180/787] Generating source selu_x86_avx.cpp
+[181/787] Generating source hardswish_x86_avx512.h
+[182/787] Generating source hardswish_x86_avx.h
+[183/787] Generating source hardswish_x86_avx512.cpp
+[184/787] Generating source hardswish_x86_avx.cpp
+[185/787] Generating source pixelshuffle_x86_avx512.h
+[186/787] Generating source pixelshuffle_x86_avx512.cpp
+[187/787] Generating source pixelshuffle_x86_avx.h
+[188/787] Generating source pixelshuffle_x86_avx.cpp
+[189/787] Generating source mish_x86_avx512.h
+[190/787] Generating source mish_x86_avx512.cpp
+[191/787] Generating source mish_x86_avx.h
+[192/787] Generating source mish_x86_avx.cpp
+[193/787] Generating source swish_x86_avx512.h
+[194/787] Generating source swish_x86_avx512.cpp
+[195/787] Generating source swish_x86_avx.h
+[196/787] Generating source swish_x86_avx.cpp
+[197/787] Generating source gemm_x86_avx512.h
+[198/787] Generating source gemm_x86_avx512.cpp
+[199/787] Generating source gemm_x86_avx.h
+[200/787] Generating source groupnorm_x86_avx512.h
+[201/787] Generating source groupnorm_x86_avx512.cpp
+[202/787] Generating source groupnorm_x86_avx.h
+[203/787] Generating source groupnorm_x86_avx.cpp
+[204/787] Generating source layernorm_x86_avx512.h
+[205/787] Generating source gemm_x86_avx.cpp
+[206/787] Generating source multiheadattention_x86_avx.cpp
+[207/787] Generating source layernorm_x86_avx512.cpp
+[208/787] Generating source layernorm_x86_avx.h
+[209/787] Generating source layernorm_x86_avx.cpp
+[210/787] Generating source multiheadattention_x86_avx512.h
+[211/787] Generating source multiheadattention_x86_avx512.cpp
+[212/787] Generating source multiheadattention_x86_avx.h
+[213/787] Generating source gelu_x86_avx512.h
+[214/787] Generating source convolution1d_x86_avx.h
+[215/787] Generating source gelu_x86_avx.h
+[216/787] Generating source convolution1d_x86_avx512.cpp
+[217/787] Generating source gelu_x86_avx512.cpp
+[218/787] Generating source gelu_x86_avx.cpp
+[219/787] Generating source convolution1d_x86_avx512.h
+[220/787] Generating source convolution1d_x86_avx.cpp
+[221/787] Generating source matmul_x86_avx512.h
+[222/787] Generating source matmul_x86_avx512.cpp
+[223/787] Generating source matmul_x86_avx.h
+[224/787] Generating source matmul_x86_avx.cpp
+[225/787] Generating source deformableconv2d_x86_avx512.h
+[226/787] Generating source deformableconv2d_x86_avx.h
+[227/787] Generating source gridsample_x86_avx512.h
+[228/787] Generating source deformableconv2d_x86_avx512.cpp
+[229/787] Generating source deformableconv2d_x86_avx.cpp
+[230/787] Generating source gridsample_x86_avx512.cpp
+[231/787] Generating source cumulativesum_x86_avx512.h
+[232/787] Generating source gridsample_x86_avx.h
+[233/787] Generating source gridsample_x86_avx.cpp
+[234/787] Generating source cumulativesum_x86_avx512.cpp
+[235/787] Generating source cumulativesum_x86_avx.h
+[236/787] Generating source erf_x86_avx512.h
+[237/787] Generating source cumulativesum_x86_avx.cpp
+[238/787] Generating source erf_x86_avx.cpp
+[239/787] Generating source rmsnorm_x86_avx512.h
+[240/787] Generating source erf_x86_avx512.cpp
+[241/787] Generating source erf_x86_avx.h
+[242/787] Generating source rmsnorm_x86_avx512.cpp
+[243/787] Generating source rmsnorm_x86_avx.cpp
+[244/787] Generating source rmsnorm_x86_avx.h
+[245/787] Generating source sdpa_x86_avx512.h
+[246/787] Generating source sdpa_x86_avx512.cpp
+[247/787] Generating source sdpa_x86_avx.cpp
+[248/787] Generating source rotaryembed_x86_avx.cpp
+[249/787] Generating source sdpa_x86_avx.h
+[250/787] Generating source rotaryembed_x86_avx.h
+[251/787] Generating source rotaryembed_x86_avx512.h
+[252/787] Generating source rotaryembed_x86_avx512.cpp
+[253/787] Building CXX object src/CMakeFiles/ncnn.dir/command.cpp.o
+[254/787] Building CXX object src/CMakeFiles/ncnn.dir/blob.cpp.o
+[255/787] Building CXX object src/CMakeFiles/ncnn.dir/datareader.cpp.o
+[256/787] Building CXX object src/CMakeFiles/ncnn.dir/allocator.cpp.o
+[257/787] Building CXX object src/CMakeFiles/ncnn.dir/cpu.cpp.o
+[258/787] Building CXX object src/CMakeFiles/ncnn.dir/expression.cpp.o
+[259/787] Building CXX object src/CMakeFiles/ncnn.dir/gpu.cpp.o
+[260/787] Building CXX object src/CMakeFiles/ncnn.dir/benchmark.cpp.o
+[261/787] Building CXX object src/CMakeFiles/ncnn.dir/c_api.cpp.o
+[262/787] Building CXX object src/CMakeFiles/ncnn.dir/layer.cpp.o
+[263/787] Building CXX object src/CMakeFiles/ncnn.dir/mat.cpp.o
+[264/787] Building CXX object src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o
+[265/787] Building CXX object src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o
+[266/787] Building CXX object src/CMakeFiles/ncnn.dir/mat_pixel_drawing.cpp.o
+[267/787] Building CXX object src/CMakeFiles/ncnn.dir/modelbin.cpp.o
+[268/787] Building CXX object src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o
+[269/787] Building CXX object src/CMakeFiles/ncnn.dir/option.cpp.o
+[270/787] Building CXX object src/CMakeFiles/ncnn.dir/pipeline.cpp.o
+[271/787] Building CXX object src/CMakeFiles/ncnn.dir/simpleocv.cpp.o
+[272/787] Building CXX object src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o
+[273/787] Building CXX object src/CMakeFiles/ncnn.dir/simplestl.cpp.o
+[274/787] Building CXX object src/CMakeFiles/ncnn.dir/simpleomp.cpp.o
+[275/787] Building CXX object src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o
+[276/787] Building CXX object src/CMakeFiles/ncnn.dir/simplemath.cpp.o
+[277/787] Building CXX object src/CMakeFiles/ncnn.dir/paramdict.cpp.o
+[278/787] Building CXX object src/CMakeFiles/ncnn.dir/simplevk.cpp.o
+[279/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/absval.cpp.o
+[280/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/absval_x86.cpp.o
+[281/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o
+[282/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86.cpp.o
+[283/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/absval_x86_avx512.cpp.o
+[284/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/absval_x86_avx.cpp.o
+[285/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx512.cpp.o
+[286/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_fma.cpp.o
+[287/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_fma4.cpp.o
+[288/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx512bf16.cpp.o
+[289/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx.cpp.o
+[290/787] Building CXX object src/CMakeFiles/ncnn.dir/net.cpp.o
+[291/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/bias.cpp.o
+[292/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/bias_x86.cpp.o
+[293/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx2.cpp.o
+[294/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avxneconvert.cpp.o
+[295/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o
+[296/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86.cpp.o
+[297/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_avx512.cpp.o
+[298/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_avx.cpp.o
+[299/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx512.cpp.o
+[300/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_fma.cpp.o
+[301/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_fma4.cpp.o
+[302/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx.cpp.o
+[303/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx512bf16.cpp.o
+[304/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/concat.cpp.o
+[305/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avxneconvert.cpp.o
+[306/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx2.cpp.o
+[307/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/concat_x86.cpp.o
+[308/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o
+[309/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_avx.cpp.o
+[310/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_avx512.cpp.o
+[311/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avxvnni.cpp.o
+[312/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx512vnni.cpp.o
+[313/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avxvnniint8.cpp.o
+[314/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_fma.cpp.o
+[315/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_fma4.cpp.o
+[316/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/crop.cpp.o
+[317/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_xop.cpp.o
+[318/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/crop_x86.cpp.o
+[319/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx512bf16.cpp.o
+[320/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o
+[321/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx.cpp.o
+[322/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx512.cpp.o
+[323/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o
+[324/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avxneconvert.cpp.o
+[325/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86.cpp.o
+/home/asdf/Downloads/gallery-re/ncnn-src/src/layer/x86/deconvolution_x86.cpp: In member function ‘int ncnn::Deconvolution_x86::forward_bf16s(const ncnn::Mat&, ncnn::Mat&, const ncnn::Option&) const’:
+/home/asdf/Downloads/gallery-re/ncnn-src/src/layer/x86/deconvolution_x86.cpp:684:9: warning: unused variable ‘elempack’ [-Wunused-variable]
+  684 |     int elempack = bottom_blob.elempack;
+      |         ^~~~~~~~
+[326/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_fma.cpp.o
+[327/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_fma4.cpp.o
+[328/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx2.cpp.o
+[329/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o
+[330/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86.cpp.o
+[331/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avxneconvert.cpp.o
+[332/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx2.cpp.o
+[333/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx.cpp.o
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/deconvolution_x86_avx.cpp: In member function ‘int ncnn::Deconvolution_x86_avx::forward_bf16s(const ncnn::Mat&, ncnn::Mat&, const ncnn::Option&) const’:
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/deconvolution_x86_avx.cpp:684:9: warning: unused variable ‘elempack’ [-Wunused-variable]
+  684 |     int elempack = bottom_blob.elempack;
+      |         ^~~~~~~~
+[334/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx512.cpp.o
+[335/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx512bf16.cpp.o
+[336/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx.cpp.o
+[337/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx512bf16.cpp.o
+[338/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avxneconvert.cpp.o
+[339/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx.cpp.o
+[340/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o
+[341/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx2.cpp.o
+[342/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86.cpp.o
+[343/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx512bf16.cpp.o
+[344/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx512.cpp.o
+[345/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx512.cpp.o
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/deconvolution_x86_avx512.cpp: In member function ‘int ncnn::Deconvolution_x86_avx512::forward_bf16s(const ncnn::Mat&, ncnn::Mat&, const ncnn::Option&) const’:
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/deconvolution_x86_avx512.cpp:684:9: warning: unused variable ‘elempack’ [-Wunused-variable]
+  684 |     int elempack = bottom_blob.elempack;
+      |         ^~~~~~~~
+[346/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_fma4.cpp.o
+[347/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_fma.cpp.o
+[348/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avxneconvert.cpp.o
+[349/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx.cpp.o
+[350/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/elu.cpp.o
+[351/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/elu_x86.cpp.o
+[352/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx2.cpp.o
+[353/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_fma4.cpp.o
+[354/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avx.cpp.o
+[355/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avx512.cpp.o
+[356/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avx512bf16.cpp.o
+[357/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_fma.cpp.o
+[358/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avxneconvert.cpp.o
+[359/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/exp.cpp.o
+[360/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o
+[361/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/embed.cpp.o
+[362/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86.cpp.o
+[363/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avx2.cpp.o
+[364/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o
+[365/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx.cpp.o
+[366/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx512.cpp.o
+[367/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86.cpp.o
+[368/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avxneconvert.cpp.o
+[369/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx2.cpp.o
+[370/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_fma4.cpp.o
+[371/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/log.cpp.o
+[372/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/input.cpp.o
+[373/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx.cpp.o
+[374/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_fma.cpp.o
+[375/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o
+[376/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx512bf16.cpp.o
+[377/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86.cpp.o
+[378/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_f16c.cpp.o
+[379/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_avx512.cpp.o
+[380/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o
+[381/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_fma.cpp.o
+[382/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o
+[383/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_fma4.cpp.o
+[384/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o
+[385/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86.cpp.o
+[386/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_avx.cpp.o
+[387/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx512.cpp.o
+[388/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avxneconvert.cpp.o
+[389/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/power.cpp.o
+[390/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o
+[391/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx2.cpp.o
+[392/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86.cpp.o
+[393/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx512bf16.cpp.o
+[394/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx512.cpp.o
+In file included from /home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/pooling_x86_avx512.cpp:26:
+/home/asdf/Downloads/gallery-re/ncnn-src/src/layer/x86/pooling_2x2.h: In function ‘void ncnn::pooling2x2s2_max_avx(const Mat&, Mat&, const Option&)’:
+/home/asdf/Downloads/gallery-re/ncnn-src/src/layer/x86/pooling_2x2.h:19:13: warning: variable ‘outcount’ set but not used [-Wunused-but-set-variable=]
+   19 |         int outcount = 0;
+      |             ^~~~~~~~
+[395/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx.cpp.o
+In file included from /home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/pooling_x86_avx.cpp:26:
+/home/asdf/Downloads/gallery-re/ncnn-src/src/layer/x86/pooling_2x2.h: In function ‘void ncnn::pooling2x2s2_max_avx(const Mat&, Mat&, const Option&)’:
+/home/asdf/Downloads/gallery-re/ncnn-src/src/layer/x86/pooling_2x2.h:19:13: warning: variable ‘outcount’ set but not used [-Wunused-but-set-variable=]
+   19 |         int outcount = 0;
+      |             ^~~~~~~~
+[396/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx512.cpp.o
+[397/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_fma.cpp.o
+[398/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avxneconvert.cpp.o
+[399/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx512bf16.cpp.o
+[400/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_fma4.cpp.o
+[401/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx.cpp.o
+[402/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx2.cpp.o
+[403/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o
+[404/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/relu.cpp.o
+[405/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/reduction_x86.cpp.o
+[406/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/relu_x86.cpp.o
+[407/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o
+[408/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/reduction_x86_avx512.cpp.o
+[409/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/reduction_x86_fma4.cpp.o
+[410/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/reduction_x86_fma.cpp.o
+[411/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/reduction_x86_avx.cpp.o
+[412/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_fma4.cpp.o
+[413/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx512.cpp.o
+[414/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx512bf16.cpp.o
+[415/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_fma.cpp.o
+[416/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx.cpp.o
+[417/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx512.cpp.o
+[418/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/scale.cpp.o
+[419/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avxneconvert.cpp.o
+[420/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx2.cpp.o
+[421/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o
+[422/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o
+[423/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86.cpp.o
+[424/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/scale_x86.cpp.o
+[425/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_avx.cpp.o
+[426/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_fma4.cpp.o
+[427/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx512.cpp.o
+[428/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx.cpp.o
+[429/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx512bf16.cpp.o
+[430/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avxneconvert.cpp.o
+[431/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_fma.cpp.o
+[432/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_avx512.cpp.o
+[433/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o
+[434/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86.cpp.o
+[435/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx2.cpp.o
+[436/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_fma4.cpp.o
+[437/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx512.cpp.o
+[438/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx512bf16.cpp.o
+[439/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx.cpp.o
+[440/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/slice.cpp.o
+[441/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avxneconvert.cpp.o
+[442/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_fma.cpp.o
+[443/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx2.cpp.o
+[444/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o
+[445/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/slice_x86.cpp.o
+[446/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86.cpp.o
+[447/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_fma.cpp.o
+[448/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_fma4.cpp.o
+[449/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_avx.cpp.o
+[450/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx512bf16.cpp.o
+[451/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/split.cpp.o
+[452/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o
+[453/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86.cpp.o
+[454/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avxneconvert.cpp.o
+[455/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx2.cpp.o
+[456/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx.cpp.o
+[457/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx512.cpp.o
+[458/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_avx512.cpp.o
+[459/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_fma.cpp.o
+[460/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx512.cpp.o
+[461/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o
+[462/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/tile.cpp.o
+[463/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx512bf16.cpp.o
+[464/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx2.cpp.o
+[465/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_fma4.cpp.o
+[466/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avxneconvert.cpp.o
+[467/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx.cpp.o
+[468/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o
+[469/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o
+[470/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_fma4.cpp.o
+[471/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86.cpp.o
+[472/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_fma.cpp.o
+[473/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx512vnni.cpp.o
+[474/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_xop.cpp.o
+[475/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx2.cpp.o
+[476/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avxvnni.cpp.o
+[477/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx512.cpp.o
+[478/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx.cpp.o
+[479/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o
+[480/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86.cpp.o
+[481/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avxneconvert.cpp.o
+[482/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o
+[483/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx2.cpp.o
+[484/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx512bf16.cpp.o
+[485/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86.cpp.o
+[486/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_fma4.cpp.o
+[487/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_fma.cpp.o
+[488/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_fma.cpp.o
+[489/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx512bf16.cpp.o
+[490/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_fma4.cpp.o
+[491/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx.cpp.o
+[492/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx512.cpp.o
+[493/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o
+[494/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx.cpp.o
+[495/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avxneconvert.cpp.o
+[496/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx2.cpp.o
+[497/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_fma.cpp.o
+[498/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx512.cpp.o
+[499/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o
+[500/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_fma4.cpp.o
+[501/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o
+[502/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o
+[503/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_avx512.cpp.o
+[504/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/padding_x86.cpp.o
+[505/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o
+[506/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/normalize_x86.cpp.o
+[507/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_avx.cpp.o
+[508/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/padding.cpp.o
+[509/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/normalize_x86_avx512.cpp.o
+[510/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/normalize_x86_fma.cpp.o
+[511/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx.cpp.o
+[512/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx512.cpp.o
+[513/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/normalize_x86_fma4.cpp.o
+[514/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/normalize_x86_avx.cpp.o
+[515/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/permute.cpp.o
+[516/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o
+[517/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o
+[518/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/interp.cpp.o
+[519/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/interp_x86.cpp.o
+[520/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/permute_x86.cpp.o
+[521/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_fma.cpp.o
+[522/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx512bf16.cpp.o
+[523/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/permute_x86_avx.cpp.o
+[524/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_fma4.cpp.o
+[525/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx512.cpp.o
+[526/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avxneconvert.cpp.o
+[527/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx.cpp.o
+[528/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o
+[529/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86.cpp.o
+[530/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o
+[531/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx2.cpp.o
+[532/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_fma4.cpp.o
+[533/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_fma.cpp.o
+[534/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/shufflechannel_x86.cpp.o
+[535/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_avx512.cpp.o
+[536/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o
+[537/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/instancenorm_x86.cpp.o
+[538/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_avx.cpp.o
+[539/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/permute_x86_avx512.cpp.o
+[540/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/shufflechannel_x86_avx.cpp.o
+[541/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/shufflechannel_x86_avx512.cpp.o
+[542/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/instancenorm_x86_avx512.cpp.o
+[543/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/instancenorm_x86_fma.cpp.o
+[544/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/instancenorm_x86_avx512bf16.cpp.o
+[545/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/instancenorm_x86_fma4.cpp.o
+[546/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/instancenorm_x86_avx.cpp.o
+[547/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/clip.cpp.o
+[548/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/clip_x86.cpp.o
+[549/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/instancenorm_x86_avxneconvert.cpp.o
+[550/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/instancenorm_x86_avx2.cpp.o
+[551/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o
+[552/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx512.cpp.o
+[553/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx512bf16.cpp.o
+[554/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx.cpp.o
+[555/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o
+[556/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx2.cpp.o
+[557/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avxneconvert.cpp.o
+[558/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o
+[559/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86.cpp.o
+[560/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o
+[561/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86.cpp.o
+[562/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx512.cpp.o
+[563/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx512bf16.cpp.o
+[564/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx.cpp.o
+[565/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx2.cpp.o
+[566/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx512.cpp.o
+[567/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_fma.cpp.o
+[568/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_fma4.cpp.o
+[569/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx.cpp.o
+[570/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avxneconvert.cpp.o
+[571/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx512bf16.cpp.o
+[572/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o
+[573/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86.cpp.o
+[574/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx2.cpp.o
+[575/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o
+[576/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o
+[577/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_avx512.cpp.o
+[578/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86.cpp.o
+[579/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_avx.cpp.o
+[580/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_avx512.cpp.o
+[581/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_fma4.cpp.o
+[582/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_fma.cpp.o
+[583/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/packing.cpp.o
+[584/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_avx.cpp.o
+[585/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o
+[586/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86.cpp.o
+[587/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_avx512.cpp.o
+[588/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_fma.cpp.o
+[589/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/cast.cpp.o
+[590/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/packing_x86.cpp.o
+[591/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_fma4.cpp.o
+[592/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/cast_x86.cpp.o
+[593/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_avx.cpp.o
+[594/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx.cpp.o
+[595/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx512.cpp.o
+[596/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx512bf16.cpp.o
+[597/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx.cpp.o
+[598/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx512.cpp.o
+[599/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx2.cpp.o
+[600/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avxneconvert.cpp.o
+[601/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o
+[602/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86.cpp.o
+[603/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_f16c.cpp.o
+[604/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx512.cpp.o
+[605/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/selu.cpp.o
+[606/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_fma.cpp.o
+[607/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_fma4.cpp.o
+[608/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx512bf16.cpp.o
+[609/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx.cpp.o
+[610/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avxneconvert.cpp.o
+[611/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/selu_x86.cpp.o
+[612/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx2.cpp.o
+[613/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o
+[614/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/selu_x86_fma.cpp.o
+[615/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/selu_x86_avx512.cpp.o
+[616/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/selu_x86_avx.cpp.o
+[617/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/selu_x86_fma4.cpp.o
+[618/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/selu_x86_avx512bf16.cpp.o
+[619/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/selu_x86_avxneconvert.cpp.o
+[620/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86.cpp.o
+[621/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/selu_x86_avx2.cpp.o
+[622/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx512.cpp.o
+[623/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/noop.cpp.o
+[624/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_fma.cpp.o
+[625/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx512bf16.cpp.o
+[626/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_fma4.cpp.o
+[627/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx.cpp.o
+[628/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avxneconvert.cpp.o
+[629/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx2.cpp.o
+[630/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/pixelshuffle_x86.cpp.o
+/home/asdf/Downloads/gallery-re/ncnn-src/src/layer/x86/pixelshuffle_x86.cpp: In function ‘_ZNK4ncnn16PixelShuffle_x867forwardERKNS_3MatERS1_RKNS_6OptionE._omp_fn.0’:
+/home/asdf/Downloads/gallery-re/ncnn-src/src/layer/x86/pixelshuffle_x86.cpp:105:30: warning: ‘s’ may be used uninitialized [-Wmaybe-uninitialized]
+  105 |                 const float* s1 = s[1];
+      |                              ^~
+/home/asdf/Downloads/gallery-re/ncnn-src/src/layer/x86/pixelshuffle_x86.cpp:50:26: note: ‘s’ declared here
+   50 |             const float* s[4];
+      |                          ^
+/home/asdf/Downloads/gallery-re/ncnn-src/src/layer/x86/pixelshuffle_x86.cpp:105:30: warning: ‘s’ may be used uninitialized [-Wmaybe-uninitialized]
+  105 |                 const float* s1 = s[1];
+      |                              ^~
+/home/asdf/Downloads/gallery-re/ncnn-src/src/layer/x86/pixelshuffle_x86.cpp:50:26: note: ‘s’ declared here
+   50 |             const float* s[4];
+      |                          ^
+[631/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o
+[632/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o
+[633/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/mish.cpp.o
+[634/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/mish_x86.cpp.o
+[635/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/pixelshuffle_x86_avx512.cpp.o
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/pixelshuffle_x86_avx512.cpp: In function ‘_ZNK4ncnn23PixelShuffle_x86_avx5127forwardERKNS_3MatERS1_RKNS_6OptionE._omp_fn.0’:
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/pixelshuffle_x86_avx512.cpp:105:30: warning: ‘s’ may be used uninitialized [-Wmaybe-uninitialized]
+  105 |                 const float* s1 = s[1];
+      |                              ^~
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/pixelshuffle_x86_avx512.cpp:50:26: note: ‘s’ declared here
+   50 |             const float* s[4];
+      |                          ^
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/pixelshuffle_x86_avx512.cpp:105:30: warning: ‘s’ may be used uninitialized [-Wmaybe-uninitialized]
+  105 |                 const float* s1 = s[1];
+      |                              ^~
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/pixelshuffle_x86_avx512.cpp:50:26: note: ‘s’ declared here
+   50 |             const float* s[4];
+      |                          ^
+[636/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/pixelshuffle_x86_avx.cpp.o
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/pixelshuffle_x86_avx.cpp: In function ‘_ZNK4ncnn20PixelShuffle_x86_avx7forwardERKNS_3MatERS1_RKNS_6OptionE._omp_fn.0’:
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/pixelshuffle_x86_avx.cpp:105:30: warning: ‘s’ may be used uninitialized [-Wmaybe-uninitialized]
+  105 |                 const float* s1 = s[1];
+      |                              ^~
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/pixelshuffle_x86_avx.cpp:50:26: note: ‘s’ declared here
+   50 |             const float* s[4];
+      |                          ^
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/pixelshuffle_x86_avx.cpp:105:30: warning: ‘s’ may be used uninitialized [-Wmaybe-uninitialized]
+  105 |                 const float* s1 = s[1];
+      |                              ^~
+/home/asdf/Downloads/gallery-re/ncnn-src/build/src/layer/x86/pixelshuffle_x86_avx.cpp:50:26: note: ‘s’ declared here
+   50 |             const float* s[4];
+      |                          ^
+[637/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx512.cpp.o
+[638/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_fma4.cpp.o
+[639/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx512bf16.cpp.o
+[640/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_fma.cpp.o
+[641/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o
+[642/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx.cpp.o
+[643/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avxneconvert.cpp.o
+[644/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/swish.cpp.o
+[645/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/swish_x86.cpp.o
+[646/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx2.cpp.o
+[647/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx512.cpp.o
+[648/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_fma.cpp.o
+[649/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_fma4.cpp.o
+[650/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx512bf16.cpp.o
+[651/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx.cpp.o
+[652/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avxneconvert.cpp.o
+[653/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx2.cpp.o
+[654/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o
+[655/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_fma4.cpp.o
+[656/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_fma.cpp.o
+[657/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx512vnni_avx512bf16.cpp.o
+[658/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avxneconvert.cpp.o
+[659/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx512bf16.cpp.o
+[660/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avxvnniint8.cpp.o
+[661/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86.cpp.o
+[662/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avxvnni.cpp.o
+[663/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o
+[664/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86.cpp.o
+[665/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_xop.cpp.o
+[666/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avx512.cpp.o
+[667/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_fma.cpp.o
+[668/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_fma4.cpp.o
+[669/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avx.cpp.o
+[670/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avx512bf16.cpp.o
+[671/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avxneconvert.cpp.o
+[672/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o
+[673/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avx2.cpp.o
+[674/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86.cpp.o
+[675/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_fma.cpp.o
+[676/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx512vnni.cpp.o
+[677/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avx512.cpp.o
+[678/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_fma4.cpp.o
+[679/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avx.cpp.o
+[680/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o
+[681/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avx512bf16.cpp.o
+[682/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avxneconvert.cpp.o
+[683/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx.cpp.o
+[684/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avx2.cpp.o
+[685/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o
+[686/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/gru.cpp.o
+[687/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86.cpp.o
+[688/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86.cpp.o
+[689/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o
+[690/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_avx512.cpp.o
+[691/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_avx.cpp.o
+[692/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avx512.cpp.o
+[693/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_fma.cpp.o
+[694/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_fma4.cpp.o
+[695/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx2.cpp.o
+[696/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avx512bf16.cpp.o
+[697/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avxneconvert.cpp.o
+[698/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avx.cpp.o
+[699/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/convolution1d.cpp.o
+[700/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avx2.cpp.o
+[701/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86.cpp.o
+[702/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avxneconvert.cpp.o
+[703/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_fma4.cpp.o
+[704/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_fma.cpp.o
+[705/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/pooling1d.cpp.o
+[706/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/convolution3d.cpp.o
+[707/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise1d.cpp.o
+[708/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise3d.cpp.o
+[709/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx2.cpp.o
+[710/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx512bf16.cpp.o
+[711/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/pooling3d.cpp.o
+[712/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/matmul.cpp.o
+[713/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86.cpp.o
+[714/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/deconvolution1d.cpp.o
+[715/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise1d.cpp.o
+[716/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx.cpp.o
+[717/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/deconvolution3d.cpp.o
+[718/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_avx512.cpp.o
+[719/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise3d.cpp.o
+[720/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/deformableconv2d.cpp.o
+[721/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_avx.cpp.o
+[722/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/einsum.cpp.o
+[723/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx512.cpp.o
+[724/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86.cpp.o
+[725/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/fold.cpp.o
+[726/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/glu.cpp.o
+[727/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx512.cpp.o
+[728/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_fma.cpp.o
+[729/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/unfold.cpp.o
+[730/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_avx.cpp.o
+[731/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_avx512.cpp.o
+[732/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_fma4.cpp.o
+[733/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/cumulativesum.cpp.o
+[734/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/cumulativesum_x86.cpp.o
+[735/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/gridsample.cpp.o
+[736/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/cumulativesum_x86_avx512.cpp.o
+[737/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/cumulativesum_x86_avx2.cpp.o
+[738/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/cumulativesum_x86_avx.cpp.o
+[739/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gridsample_x86.cpp.o
+[740/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/erf.cpp.o
+[741/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/copyto.cpp.o
+[742/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/erf_x86.cpp.o
+[743/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/erf_x86_avx512.cpp.o
+[744/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/erf_x86_fma.cpp.o
+[745/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/erf_x86_fma4.cpp.o
+[746/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/erf_x86_avx.cpp.o
+[747/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/erf_x86_avx512bf16.cpp.o
+[748/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/diag.cpp.o
+[749/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/erf_x86_avxneconvert.cpp.o
+[750/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/celu.cpp.o
+[751/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/erf_x86_avx2.cpp.o
+[752/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/shrink.cpp.o
+[753/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/rmsnorm.cpp.o
+[754/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rmsnorm_x86.cpp.o
+[755/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gridsample_x86_fma.cpp.o
+[756/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gridsample_x86_fma4.cpp.o
+[757/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rmsnorm_x86_avx512.cpp.o
+[758/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rmsnorm_x86_fma4.cpp.o
+[759/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rmsnorm_x86_fma.cpp.o
+[760/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gridsample_x86_avx512.cpp.o
+[761/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rmsnorm_x86_avx.cpp.o
+[762/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/spectrogram.cpp.o
+[763/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rmsnorm_x86_avx512bf16.cpp.o
+[764/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/inversespectrogram.cpp.o
+[765/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/flip.cpp.o
+[766/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rmsnorm_x86_avxneconvert.cpp.o
+[767/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rmsnorm_x86_avx2.cpp.o
+[768/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/gridsample_x86_avx.cpp.o
+[769/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/sdpa.cpp.o
+[770/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sdpa_x86.cpp.o
+[771/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/rotaryembed.cpp.o
+[772/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rotaryembed_x86.cpp.o
+[773/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sdpa_x86_fma4.cpp.o
+[774/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sdpa_x86_avxneconvert.cpp.o
+[775/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rotaryembed_x86_avx512.cpp.o
+[776/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sdpa_x86_avx2.cpp.o
+[777/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rotaryembed_x86_fma.cpp.o
+[778/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sdpa_x86_avx512bf16.cpp.o
+[779/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sdpa_x86_fma.cpp.o
+[780/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sdpa_x86_avx.cpp.o
+[781/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rotaryembed_x86_avx512bf16.cpp.o
+[782/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rotaryembed_x86_fma4.cpp.o
+[783/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rotaryembed_x86_avxneconvert.cpp.o
+[784/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rotaryembed_x86_avx.cpp.o
+[785/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/rotaryembed_x86_avx2.cpp.o
+[786/787] Building CXX object src/CMakeFiles/ncnn.dir/layer/x86/sdpa_x86_avx512.cpp.o
+[787/787] Linking CXX static library src/libncnn.a
